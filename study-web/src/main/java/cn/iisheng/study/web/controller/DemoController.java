@@ -1,6 +1,6 @@
-package org.dullnull.study.web.controller;
+package cn.iisheng.study.web.controller;
 
-import org.dullnull.study.biz.service.DemoService;
+import cn.iisheng.study.biz.service.DemoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

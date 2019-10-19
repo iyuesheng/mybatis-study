@@ -1,8 +1,8 @@
-package org.dullnull.study.biz.service.impl;
+package cn.iisheng.study.biz.service.impl;
 
-import org.dullnull.study.biz.service.DemoService;
-import org.dullnull.study.dao.entity.UserDO;
-import org.dullnull.study.dao.mapper.UserMapper;
+import cn.iisheng.study.biz.service.DemoService;
+import cn.iisheng.study.dao.entity.UserDO;
+import cn.iisheng.study.dao.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

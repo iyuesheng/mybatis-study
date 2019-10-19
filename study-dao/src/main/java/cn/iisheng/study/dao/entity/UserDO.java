@@ -1,4 +1,4 @@
-package org.dullnull.study.dao.entity;
+package cn.iisheng.study.dao.entity;
 
 import lombok.Builder;
 import lombok.Data;

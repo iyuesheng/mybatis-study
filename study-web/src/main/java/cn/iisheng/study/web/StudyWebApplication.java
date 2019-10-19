@@ -1,4 +1,4 @@
-package org.dullnull.study.web;
+package cn.iisheng.study.web;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;

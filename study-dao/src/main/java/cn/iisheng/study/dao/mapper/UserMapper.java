@@ -1,6 +1,6 @@
-package org.dullnull.study.dao.mapper;
+package cn.iisheng.study.dao.mapper;
 
-import org.dullnull.study.dao.entity.UserDO;
+import cn.iisheng.study.dao.entity.UserDO;
 
 /**
  * @author iisheng

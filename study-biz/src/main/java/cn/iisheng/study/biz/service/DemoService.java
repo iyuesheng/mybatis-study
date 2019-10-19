@@ -1,4 +1,4 @@
-package org.dullnull.study.biz.service;
+package cn.iisheng.study.biz.service;
 
 /**
  * @author iisheng
