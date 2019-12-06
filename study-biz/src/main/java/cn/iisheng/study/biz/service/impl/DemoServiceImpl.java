@@ -18,7 +18,16 @@ public class DemoServiceImpl implements DemoService {
 
     @Override
     public String test() {
-        UserDO userDO = userMapper.selectById(1);
+        UserDO userDO;
+        try {
+            userDO = userMapper.selectById(1);
+        } catch (Exception e) {
+            e.printStackTrace();
+            userDO = UserDO.builder()
+                    .id(1L)
+                    .name("iisheng")
+                    .build();
+        }
         return userDO.toString();
     }
 }

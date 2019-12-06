@@ -8,8 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author iisheng
  * @date 2019/07/11 10:45:37
  */
-@SpringBootApplication(scanBasePackages = "org.dullnull.study")
-@MapperScan("org.dullnull.study.dao")
+@SpringBootApplication(scanBasePackages = "cn.iisheng.study")
+@MapperScan("cn.iisheng.study.dao")
 public class StudyWebApplication {
 
     public static void main(String[] args) {
