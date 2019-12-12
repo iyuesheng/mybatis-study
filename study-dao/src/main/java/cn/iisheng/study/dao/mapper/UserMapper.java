@@ -10,9 +10,12 @@ public interface UserMapper {
 
     /**
      * 根据主键id获取用户信息
+     *
      * @param id
      * @return
      */
-    UserDO selectById(long id);
+    UserDO selectById(Long id);
+
+    void updateNameById(Long id, String name);
 
 }

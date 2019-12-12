@@ -6,4 +6,8 @@
     <select id="selectById" resultType="cn.iisheng.study.dao.entity.UserDO">
         select * from t_user where id = #{id}
     </select>
+
+    <select id="updateNameById">
+        UPDATE t_user SET name = #{arg1} WHERE id = #{arg0};
+    </select>
 </mapper>
