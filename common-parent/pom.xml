@@ -10,13 +10,12 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>study-web</artifactId>
+    <artifactId>common-parent</artifactId>
 
     <dependencies>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
 
         <dependency>
@@ -25,25 +24,8 @@
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.github.ulisesbocchio</groupId>
-            <artifactId>jasypt-spring-boot-starter</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>cn.iisheng</groupId>
-            <artifactId>study-biz</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>cn.iisheng</groupId>
-            <artifactId>common-parent</artifactId>
-            <version>${project.version}</version>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
         </dependency>
 
     </dependencies>

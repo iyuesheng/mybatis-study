@@ -1,6 +1,9 @@
 package cn.iisheng.study.dao.entity;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
@@ -19,5 +22,13 @@ public class UserDO implements Serializable {
     private Long id;
 
     private String name;
+
+    private Integer age;
+
+    private String desc;
+
+    private String address;
+
+    private Integer height;
 
 }

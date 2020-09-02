@@ -1,5 +1,6 @@
 package cn.iisheng.study.web.controller;
 
+import cn.iisheng.annotation.DistributedLock;
 import cn.iisheng.study.biz.service.DemoService;
 import cn.iisheng.study.dao.entity.UserDO;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +20,7 @@ public class DemoController {
     DemoService demoService;
 
     @GetMapping("/test")
+    @DistributedLock(bizNo = "demo", millisecond = 100)
     public String test() {
         UserDO userDO = demoService.get(1L);
         return userDO.toString();
